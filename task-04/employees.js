@@ -47,7 +47,10 @@ export const applyExperienceRaise = (employeeList) =>
 export const createFinalReport = (employeeList, raisedEmployees) => {
   const departments = groupByDepartment(employeeList);
   const departmentSummary = Object.entries(departments)
-    .map(([department, members]) => `- ${department}: ${members.length} angajați`)
+    .map(([department, members]) => {
+      const employeeLabel = members.length === 1 ? "angajat" : "angajați";
+      return `- ${department}: ${members.length} ${employeeLabel}`;
+    })
     .join("\n");
   const raisedNames = getExperiencedEmployees(employeeList)
     .map(({ name }) => name)
