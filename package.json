@@ -1,0 +1,12 @@
+{
+  "name": "javascript-modern-lab-2",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "task:01": "node task-01/index.js",
+    "task:02": "node task-02/main.js",
+    "task:03": "node task-03/main.js",
+    "task:04": "node task-04/main.js"
+  }
+}
