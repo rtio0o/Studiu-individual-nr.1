@@ -13,3 +13,7 @@ Lista conține notele 7, 9, 5, 10, 8 și 6.
 ## Note de la 8 în sus
 
 `filter()` păstrează notele mai mari sau egale cu 8. Rezultatul este 9, 10 și 8.
+
+## Suma notelor
+
+`reduce()` adună toate notele. Suma este 45.
