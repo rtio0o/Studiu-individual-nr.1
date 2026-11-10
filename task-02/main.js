@@ -13,12 +13,12 @@ console.log(`\nSuma notelor: ${calculateSum(grades)}`);
 console.log(`Media clasei: ${calculateAverage(grades).toFixed(2)}`);
 
 try {
-  const foundStudent = findStudentById(students, 3);
-  console.log(`\nElev găsit: ${foundStudent.name} are nota ${foundStudent.grade}.`);
+    const foundStudent = findStudentById(students, 3);
+    console.log(`\nElev găsit: ${foundStudent.name} are nota ${foundStudent.grade}.`);
 
-  findStudentById(students, 99);
+    findStudentById(students, 99);
 } catch (error) {
-  console.log(`Eroare: ${error.message}`);
+    console.log(`Eroare: ${error.message}`);
 }
 
 const newStudent = { id: 6, name: "Daniel", grade: 9 };
