@@ -13,3 +13,7 @@ Un produs are `id`, `name`, `price` și `quantity`. Prețul este pentru o singur
 ## Adăugare
 
 `addProduct()` adaugă un produs. Dacă același `id` există deja, cantitatea se adună.
+
+## Cantitate
+
+`updateQuantity()` schimbă cantitatea unui produs existent. Cantitatea trebuie să fie cel puțin 1.
