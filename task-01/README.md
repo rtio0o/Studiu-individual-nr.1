@@ -25,3 +25,7 @@ Lista conține notele 7, 9, 5, 10, 8 și 6.
 ## Mărirea notelor
 
 `map()` adaugă câte un punct fiecărei note. `Math.min()` nu permite depășirea notei 10.
+
+## Rezultat
+
+După mărire, notele sunt 8, 10, 6, 10, 9 și 7. Lista inițială rămâne neschimbată.
