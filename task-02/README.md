@@ -17,3 +17,7 @@ Fiecare elev are un `id`, un `name` și o `grade`. Lista inițială conține cin
 ## Funcțiile pentru elevi
 
 În `students.js` se află funcțiile pentru afișare, căutare și adăugare. `addStudent()` întoarce o listă nouă.
+
+## Căutare
+
+Elevul este căutat după `id`. Dacă nu există, funcția generează o eroare, iar `try/catch` afișează mesajul.
