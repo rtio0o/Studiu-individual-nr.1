@@ -1,5 +1,6 @@
 const grades = [7, 9, 5, 10, 8, 6];
 
+// Alegem notele de la 8 în sus.
 const passingGrades = grades.filter((grade) => grade >= 8);
 const totalGrades = grades.reduce((total, grade) => total + grade, 0);
 const averageGrade = totalGrades / grades.length;
