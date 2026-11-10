@@ -25,3 +25,7 @@ Un produs are `id`, `name`, `price` și `quantity`. Prețul este pentru o singur
 ## Total
 
 `calculateTotal()` folosește `reduce()` pentru a aduna prețul înmulțit cu cantitatea fiecărui produs.
+
+## Exemplu
+
+După operațiile din `main.js`, în coș rămân 5 pixuri, iar totalul este 25.00 lei.
