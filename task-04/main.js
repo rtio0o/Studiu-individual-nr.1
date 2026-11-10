@@ -26,8 +26,8 @@ console.log(
 
 const experiencedEmployees = getExperiencedEmployees(employees);
 console.log("\nAngajați cu mai mult de 3 ani experiență:");
-experiencedEmployees.forEach(({ name, yearsOfExperience }) => {
-  console.log(`- ${name}: ${yearsOfExperience} ani`);
+experiencedEmployees.forEach(({ name, experience }) => {
+  console.log(`- ${name}: ${experience} ani`);
 });
 
 const employeesAfterRaise = applyExperienceRaise(employees);
