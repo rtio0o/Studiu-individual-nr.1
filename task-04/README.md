@@ -17,3 +17,7 @@ Angajații pot fi filtrați sau grupați după departament. Exemplul afișează 
 ## Salarii
 
 Se calculează salariul mediu. Angajații cu mai mult de 3 ani de experiență primesc o mărire de 10%.
+
+## Raport
+
+La final sunt afișate numărul de angajați, departamentele, mediile salariale și numele persoanelor care au primit mărirea.
