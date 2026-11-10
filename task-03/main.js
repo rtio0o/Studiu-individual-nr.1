@@ -1,9 +1,9 @@
 import {
-  addProduct,
-  calculateTotal,
-  printCart,
-  removeProduct,
-  updateQuantity,
+    addProduct,
+    calculateTotal,
+    printCart,
+    removeProduct,
+    updateQuantity,
 } from "./cart.js";
 
 let cart = [];
@@ -24,9 +24,9 @@ console.log("\nCoș după eliminarea caietelor:");
 printCart(cart);
 
 try {
-  cart = removeProduct(cart, 99);
+    cart = removeProduct(cart, 99);
 } catch (error) {
-  console.log(`\nEroare: ${error.message}`);
+    console.log(`\nEroare: ${error.message}`);
 }
 
 console.log(`\nTotal final verificat: ${calculateTotal(cart).toFixed(2)} lei`);
