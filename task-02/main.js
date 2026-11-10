@@ -1,29 +1,7 @@
-import { initialStudents } from "./students.js";
+import { addStudent, findStudentById, initialStudents, showStudents } from "./students.js";
 import { calculateAverage, calculateSum } from "./utils.js";
 
 let students = [...initialStudents];
-
-const showStudents = (studentList, title) => {
-  console.log(`\n${title}`);
-  studentList.forEach(({ id, name, grade }) => {
-    console.log(`ID: ${id} | Elev: ${name} | Nota: ${grade}`);
-  });
-};
-
-const findStudentById = (studentList, id) => {
-  const student = studentList.find((currentStudent) => currentStudent.id === id);
-
-  if (!student) {
-    throw new Error(`Elevul cu ID-ul ${id} nu a fost găsit.`);
-  }
-
-  return student;
-};
-
-const addStudent = (student) => {
-  students = [...students, student];
-  console.log(`\nElev adăugat: ${student.name} (nota ${student.grade})`);
-};
 
 showStudents(students, "Lista inițială de elevi:");
 
@@ -43,5 +21,7 @@ try {
   console.log(`Eroare: ${error.message}`);
 }
 
-addStudent({ id: 6, name: "Daniel", grade: 9 });
+const newStudent = { id: 6, name: "Daniel", grade: 9 };
+students = addStudent(students, newStudent);
+console.log(`\nElev adăugat: ${newStudent.name} (nota ${newStudent.grade})`);
 showStudents(students, "Lista după adăugarea unui elev:");
