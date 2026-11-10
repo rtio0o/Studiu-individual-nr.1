@@ -17,3 +17,7 @@ Un produs are `id`, `name`, `price` și `quantity`. Prețul este pentru o singur
 ## Cantitate
 
 `updateQuantity()` schimbă cantitatea unui produs existent. Cantitatea trebuie să fie cel puțin 1.
+
+## Ștergere
+
+`removeProduct()` șterge produsul după `id`. Dacă produsul nu există, este generată o eroare.
