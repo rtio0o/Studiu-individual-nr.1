@@ -21,3 +21,7 @@ Un produs are `id`, `name`, `price` și `quantity`. Prețul este pentru o singur
 ## Ștergere
 
 `removeProduct()` șterge produsul după `id`. Dacă produsul nu există, este generată o eroare.
+
+## Total
+
+`calculateTotal()` folosește `reduce()` pentru a aduna prețul înmulțit cu cantitatea fiecărui produs.
