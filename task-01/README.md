@@ -21,3 +21,7 @@ Lista conține notele 7, 9, 5, 10, 8 și 6.
 ## Media
 
 Împărțim suma la numărul de note. Media este 7.50.
+
+## Mărirea notelor
+
+`map()` adaugă câte un punct fiecărei note. `Math.min()` nu permite depășirea notei 10.
